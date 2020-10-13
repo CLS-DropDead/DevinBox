@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Decalomnie </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		  <!-- Logo Deca Lomnie-->
+		  <a class="navbar-brand" href="#">
+		    <img src="bird.jpg" alt="DECA" style="width:40px;"> </a>
+		  
+		  <ul class="navbar-nav">
+		    <li class="nav-item">
+		      <a class="nav-link" href="gestion_des_materiels.html"><i class="fa fa-stack-overflow">Gestion Des Matériels</i></a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="gestion_clients.html"><i class="fa fa-briefcase">Gestion Clients</i></a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="login.html" style="margin-left: 1320px"> <i class="fa fa-arrows">Deconnexion</i></a> </li>
+		  </ul>
+		</nav>
+	</div>
+
+		<!-- Début contenu -->
+		<div class="container-fluid">
+	<div class="row"> 
+		<div class="col-md-2" style="background-color: lightgrey;">
+			<ul> <br> <br> <br> <br> <br> <br> 
+  				Gestion des achats <br>
+  				<a href="gestion_des_materiels.html"> Accéder> </a> <br> <br>
+				Gestion des charges <br>
+  				<a href="gestion_des_charges.html"> Accéder> </a> <br> <br>
+  				Gestion des ventes <br>
+  				<a href="gestion_des_ventes.html"> Accéder> </a> <br> <br>
+  				Gestion du stock <br>
+  				<a href="gestion_du_stock.html"> Accéder> </a> <br> <br>
+  			</ul>
+
+		</div>
+		<div class="col-md-10">
+			<div class="container">
+				<div class="col-md-12" style="background-color: none;">
+					<table class="table table-light table-striped">
+						<tr>
+							<th style="text-align: center;">Date</th>
+							<th style="text-align: center;">Nature de la charge</th>
+							<th>Montant</th>
+							<th style="text-align: center;"> Payé / Doit être payé <br> (Une chargé déjà payée doit être cochée) </th>
+						</tr>
+						<tr>
+							<th> 20/09/2020 </th>
+							<th style="text-align: center;"> Location de l'immeuble </th>
+							<th> 750 000 Ar </th>
+							<th style="text-align: center;"> <input type="checkbox" name="pnp"></th>
+						</tr>
+						<tr>
+							<th> 20/09/2020 </th>
+							<th style="text-align: center;"> Personnel </th>
+							<th> 850 000 Ar </th>
+							<th style="text-align: center;"> <input type="checkbox" name="pnp"></th>
+						</tr>
+						<tr>
+							<th> 21/09/2020 </th>
+							<th style="text-align: center;"> Achat de prestations extérieures </th>
+							<th> 250 000 Ar </th>
+							<th style="text-align: center;"> <input type="checkbox" name="pnp"></th>
+						</tr>
+						<tr>
+							<th> 22/09/2020 </th>
+							<th style="text-align: center;"> Paiement Sécurité mensuelle (VigiPirate) </th>
+							<th> 350 000 Ar </th>
+							<th style="text-align: center;"> <input type="checkbox" name="pnp"></th>
+						</tr>
+						<tr>
+							<th>23/09/2020 </th>
+							<th style="text-align: center;"> Entretien véhicule de service </th>
+							<th> 50 000 Ar </th>
+							<th style="text-align: center;"> <input type="checkbox" name="pnp"></th>
+					</table> <br>
+
+				<button class="btn-btn-primary" style="margin-left: 250px;"> Ajouter une nouvelle charge </button>
+				<button class="btn-btn-primary"> Régulariser les charges non-payés </button>	
+			
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+</html>

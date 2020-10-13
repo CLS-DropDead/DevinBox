@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Css/bootstrap.css">
+	<meta charset="utf-8">
+	<title> Authentification </title>
+	<style type="text/css">
+
+		.cadre{
+			border: 1px solid black;
+			border-radius: 10px;
+			box-shadow: 10px 10px 10px crimson;
+			background-image: linear-gradient(to bottom, grey,white);
+			padding-bottom: 10px;}
+		.top{
+			margin-top: 250px;}
+		.connexion{
+			margin-left: 400px;}
+
+		h1{
+			text-align: center;
+			text-shadow: 10px 10px 10px;}
+
+	</style>
+</head>
+<body>
+
+	<div class="row top">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 cadre">
+			<h1> Authentification </h1>
+
+			<form>
+				<div>
+					<label> Nom d'Utilisateur</label>
+					<input type="username" name="NomD'Utilisateur" class="form-control">
+				</div>
+
+				<div>
+					<label> Mot de Passe</label>
+					<input type="password" name="MotDePasse" class="form-control">
+				</div> <br>
+
+				<div>
+					<a href="oubli_mdp.html"> Vous avez oublié votre mot de passe ?</a> <br> <br>
+				</div>
+
+				<div>
+					<input type="checkbox" name="remember">Se souvenir de moi
+				</div> <br>
+
+
+				<div class="container">
+				  <a href="gestion_des_materiels.html" class="btn btn-danger" role="button">Valider</a>
+				</div>
+
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+
+</body>
+</html>
